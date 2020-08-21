@@ -11,3 +11,10 @@ Loading failed for the <script> with source “http://localhost:3000/0.js:55:1__
 
 4. Open http://localhost:3000 with any other browser and it will just load chunks fine. PSPDFKit will
 fail to initialize though (but that's not important here).
+
+
+5. To test a prod build:
+
+`yarn build`
+
+`./node_modules/http-server/bin/http-server dist`
